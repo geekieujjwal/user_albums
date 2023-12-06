@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "name": "Myra",
+      "id": 1
+    },
+    {
+      "name": "Winston Ankunding",
+      "id": 8
+    },
+    {
+      "name": "Angela Bahringer",
+      "id": 12
+    },
+    {
+      "name": "Ramona Feeney II",
+      "id": 14
+    },
+    {
+      "name": "Amelia Christiansen",
+      "id": 15
+    },
+    {
+      "name": "Oliver Yundt",
+      "id": 16
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
