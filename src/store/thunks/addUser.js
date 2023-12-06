@@ -7,7 +7,18 @@ const addUser = createAsyncThunk("user/add", async () => {
     name: faker.person.fullName(),
   });
 
+  await pause(1000);
+
+  //DEV ONLY
+
   return response.data;
 });
+
+//DEV ONLY
+const pause = (duration) => {
+  return new Promise((resolve) => {
+    setTimeout(resolve, duration);
+  });
+};
 
 export { addUser };
